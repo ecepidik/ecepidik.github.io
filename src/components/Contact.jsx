@@ -60,23 +60,6 @@ export default function Contact() {
             <div className="flex gap-4">
               <div className="flex-shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-md bg-darkblue text-white">
-                  <Phone className="w-6 h-6" />
-                </div>
-              </div>
-              <div>
-                <h4 className="text-lg font-semibold text-darkblue">Phone</h4>
-                <a
-                  href="tel:+15145154544"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  +1 (514) 515-4544
-                </a>
-              </div>
-            </div>
-
-            <div className="flex gap-4">
-              <div className="flex-shrink-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-darkblue text-white">
                   <MapPin className="w-6 h-6" />
                 </div>
               </div>

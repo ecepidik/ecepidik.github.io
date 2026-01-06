@@ -33,13 +33,6 @@ export default function Hero() {
               <Mail className="w-5 h-5" />
               pidik.ece@gmail.com
             </a>
-            <a
-              href="tel:+15145154544"
-              className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors"
-            >
-              <Phone className="w-5 h-5" />
-              +1 (514) 515-4544
-            </a>
           </div>
 
           {/* Social Links */}
