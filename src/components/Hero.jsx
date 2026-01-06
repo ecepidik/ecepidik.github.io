@@ -1,20 +1,14 @@
 import { Github, Linkedin, Mail, Phone } from 'lucide-react'
+import profilePhoto from '../assets/its_a_me.jpg'
 
 export default function Hero() {
   return (
     <section className="pt-28 pb-12 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
       <div className="grid md:grid-cols-2 gap-12 items-center">
-        {/* Photo Placeholder */}
         <div className="flex justify-center md:justify-start">
           <div className="relative">
-            <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-darkblue to-darkblue_light rounded-2xl shadow-2xl flex items-center justify-center overflow-hidden">
-              <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <div className="text-center">
-                  <span className="text-6xl">📷</span>
-                  <p className="text-gray-600 mt-4 text-sm font-medium">Photo Placeholder</p>
-                  <p className="text-gray-500 text-xs mt-2">Add your photo here</p>
-                </div>
-              </div>
+            <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-darkblue to-darkblue_light rounded-2xl shadow-2xl overflow-hidden">
+              <img src={profilePhoto} alt="Ece Pidik" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
